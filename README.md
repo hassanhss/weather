@@ -1,44 +1,6 @@
-# Weather Project
-
-A Python application that provides weather information using the National Weather Service (NWS) API.
-
-## Features
-
-- Get weather alerts for a US state
-- Get weather forecast for a location by latitude and longitude
-
-## Requirements
-
-- Python 3.11 or higher
-- Dependencies:
-  - httpx
-  - mcp[cli]
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/hassanhss/weather.git
-cd weather
-
-# Install dependencies
-pip install -e .
-```
-
-## Usage
-
-Run the main application:
-
-```bash
-python main.py
-```
-
-Or use as an MCP server:
-
-```bash
-python weather.py
-```
-
-## License
-
-MIT
+1.uv init weather 创建项目
+2.cd weather 进入到项目目录
+3.uv venv 新建一个虚拟环境
+4.source .venv/bin/activate 进入虚拟环境中
+5.uv add "mcp[cli]" httpx 按照开发mcp必备依赖
+6.在 VS Code 中通过按 Cmd+Shift+P，然后输入 "Python: Select Interpreter" 来选择venv中的解释器
